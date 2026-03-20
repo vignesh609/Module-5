@@ -1,3 +1,4 @@
+
 # Destructor in Python
 
 This project demonstrates how to implement a **destructor** in Python using a simple class.
@@ -21,9 +22,24 @@ The program defines a class `Demo` with:
    - Create an instance of the `Demo` class.
    - Delete the object using the `del` keyword.
 ## Program
-Add code Here
+
+```python
+class Demo:
+    def __init__(self):
+        print("Hello World!")
+
+    def __del__(self):
+        print("Hello from the __del__ method.")
+
+# Create and delete the object
+obj = Demo()
+del obj
+```
 
 ## 🧪 Output
 
+![image](https://github.com/user-attachments/assets/fe8909b3-2c63-4530-a185-5c36adea11d8)
+
 ## Result
 
+Thus the program demonstrates how to implement a destructor in Python using a simple class has been executed successfully.
