@@ -1,4 +1,4 @@
-# # Constructors in Python: Welcome Message with Student Name
+# Constructors in Python: Welcome Message with Student Name
 
 ## 🎯 Aim
 To write a Python program that creates a **Student** class with a **default constructor** and a method to display a welcome message along with the student’s name provided by the user.
@@ -12,8 +12,25 @@ To write a Python program that creates a **Student** class with a **default cons
 
 ## 🧾 Program
 
-Add code here
+```python
+class Student:
+    def _init_(self,a):
+        self.a=a
+    def get(self):
+        self.a=input()
+    def info(self):
+        print("This is non parametrized constructor")
+        print("Hello",self.a)
+obj=Student()
+obj.get()
+obj.info()
+```
 
 ## Output
 
+![image](https://github.com/user-attachments/assets/ed28ef05-3c55-4418-bb09-8e3cba7a03ac)
+
+
 ## Result
+
+Thus the program demonstrates how to implement a destructor in Python using a simple class has been executed successfully.
